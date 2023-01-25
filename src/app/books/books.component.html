@@ -1,10 +1,16 @@
 <p>Programming book list!</p>
+<!--Property Binding-->
+<button (mouseover)="handleClick()" 
+[disabled] = "isDisabled"   >Show books</button>
+
+
 <ul>
     <li> 
-        <img src="{{src}}" alt="{{name}}" width="100px">
+        <img [src]="src" [alt]="name" width="100px">
         {{name}} by: {{author}}</li>
     <li>
-        <img src="{{src2}}" alt="{{name2}}" width="100px">
+        <img [src]="src2" [alt]="name2" width="100px">
         {{name2}} by {{author2}}
     </li>
+    <li></li>
 </ul>

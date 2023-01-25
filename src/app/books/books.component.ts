@@ -13,4 +13,16 @@ export class BooksComponent {
   name2 ="Pragmatic Programmer"
   author2 = "Andrew Hunt"
   src2 = "https://m.media-amazon.com/images/I/41HXiIojloL._SX396_BO1,204,203,200_.jpg"
+
+  isDisabled:boolean = false;
+  isDisabled2:boolean = false;
+
+  handleClick(){
+    this.isDisabled = true; 
+   // alert("Button disabled ")
+
+  }
+  
 }
+
+
