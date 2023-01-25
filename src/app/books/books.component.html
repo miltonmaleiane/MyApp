@@ -1,16 +1,19 @@
 <p>Programming book list!</p>
 <!--Property Binding-->
-<button (mouseover)="handleClick()" 
-[disabled] = "isDisabled"   >Show books</button>
-<input type="text" placeholder="Type here" [(ngModel)]= "myName"/>
+<button style="background-color: blueviolet;" (click)="isShowing = !isShowing;" >
+   <ng-container *ngIf="isShowing"> Hide Books</ng-container>
+   <ng-container *ngIf="!isShowing"> Show Books</ng-container>
+
+</button>
 <p>{{myName}}</p>
-<ul>
-    <li> 
-        <img [src]="src" [alt]="name" width="100px">
-        {{name}} by: {{author}}</li>
-    <li>
-        <img [src]="src2" [alt]="name2" width="100px">
-        {{name2}} by {{author2}}
+<ul *ngIf="isShowing">
+
+    <ng-container *ngFor="let book of books; let i = index;">
+    <li > 
+       <p> {{i+1}}</p>
+        <img [src]="book.image" [alt]="book.name" width="100px">
+        {{book.name | titlecase}} by: {{book.author|uppercase}}
+         <p>{{book.amount| currency: 'EUR'}}</p>
     </li>
-    <li></li>
+</ng-container>
 </ul>
