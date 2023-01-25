@@ -22,6 +22,7 @@ export class BooksComponent {
    // alert("Button disabled ")
 
   }
+  myName: string =""
   
 }
 

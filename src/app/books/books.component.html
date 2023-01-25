@@ -2,8 +2,8 @@
 <!--Property Binding-->
 <button (mouseover)="handleClick()" 
 [disabled] = "isDisabled"   >Show books</button>
-
-
+<input type="text" placeholder="Type here" [(ngModel)]= "myName"/>
+<p>{{myName}}</p>
 <ul>
     <li> 
         <img [src]="src" [alt]="name" width="100px">
