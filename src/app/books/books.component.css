@@ -1,3 +1,14 @@
-li{
+ul{
     padding: 10px;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.book{
+    list-style: none;
+    text-overflow: ellipsis;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
 }
