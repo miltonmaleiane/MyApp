@@ -35,7 +35,7 @@ export class BooksComponent implements OnInit{
     console.log(book)
   }
   
-  myName: string =""
+  myName: string ="zz"
   
   ngOnInit(): void {
      this.books = this.booksService.getBooks()
