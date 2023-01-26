@@ -11,7 +11,7 @@ export class BookComponent  implements  OnInit{
   @Input() book:Book = {} as Book;
   @Output() bookEmitter = new EventEmitter<Book>();
   myInterval:any = null;   
-  addToCard(){
+  addToCart(){
    this.bookEmitter.emit(this.book)
   }
   

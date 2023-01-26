@@ -21,7 +21,7 @@ export class BooksComponent implements OnInit{
   
   
   
-  card: Book[]=[];
+  cart: Book[]=[];
   isDisabled:boolean = false;
   isDisabled2:boolean = false;
   showBooks: boolean = true;
