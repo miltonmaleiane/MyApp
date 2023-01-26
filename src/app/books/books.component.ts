@@ -39,7 +39,7 @@ export class BooksComponent {
   
 
 
-
+  card: Book[]=[];
   isDisabled:boolean = false;
   isDisabled2:boolean = false;
   showBooks: boolean = true;
@@ -51,6 +51,10 @@ export class BooksComponent {
   }
   toggleBooks(){
 
+   }
+
+   addToCard(book:Book){
+    console.log(book)
    }
    
   myName: string =""
