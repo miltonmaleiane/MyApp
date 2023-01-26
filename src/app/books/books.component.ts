@@ -21,7 +21,7 @@ export class BooksComponent implements OnInit{
   
   
   
-  cart: Book[]=[];
+  
   isDisabled:boolean = false;
   isDisabled2:boolean = false;
   showBooks: boolean = true;
@@ -35,10 +35,7 @@ export class BooksComponent implements OnInit{
     
   }
   
-  addToCard(book:Book){
-    console.log(book)
-  }
-  
+
   myName: string ="zz"
   
   ngOnInit(): void {
