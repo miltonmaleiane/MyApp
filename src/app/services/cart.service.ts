@@ -5,11 +5,12 @@ import { Book } from '../types/Book';
   providedIn: 'root'
 })
 export class CartService {
-  cart: Array <Book>[] = []
+  cart: Array <Book>  = []
   constructor() { }
 
 
   add(book: Book) {
-   this.cart.push() 
+    console.log(book)
+   this.cart.push(book) 
   }
 }
