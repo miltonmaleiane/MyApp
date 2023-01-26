@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Book } from '../types/Book';
 
 @Component({
@@ -7,7 +7,8 @@ import { Book } from '../types/Book';
   styleUrls: ['./books.component.css']
 })
 
-export class BooksComponent {
+export class BooksComponent implements OnInit{
+  
 
   books:Book[] = [
     {
@@ -43,7 +44,7 @@ export class BooksComponent {
   isDisabled:boolean = false;
   isDisabled2:boolean = false;
   showBooks: boolean = true;
-  //isShowing: boolean = false;
+  isShowing: boolean = false;
 
   handleClick(){
     this.isDisabled = true; 
@@ -58,7 +59,13 @@ export class BooksComponent {
    }
    
   myName: string =""
+  constructor (){
+    console.log("const")
+  }
   
+  ngOnInit(): void {
+    console.log ("Inicializando")
+  }
 }
 
 

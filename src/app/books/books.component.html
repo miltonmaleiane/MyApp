@@ -1,8 +1,8 @@
 <p>Programming book list!</p>
 <!--Property Binding-->
 
-
-<ul>
+<button (click)="isShowing =!isShowing">Toggle </button>
+<ul *ngIf="isShowing">
 
 <ng-container *ngFor="let singleBook of books; let i = index;">
  <app-book (bookEmitter)="addToCard($event)" [book] = "singleBook"> </app-book>
