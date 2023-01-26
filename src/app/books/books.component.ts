@@ -1,10 +1,6 @@
 import { Component } from '@angular/core';
-interface Book{
-  name : string;
-  author : string;
-  image:string;
-  amount: number;
-}
+import { Book } from '../types/Book';
+
 @Component({
   selector: 'app-books',
   templateUrl: './books.component.html',
@@ -47,7 +43,7 @@ export class BooksComponent {
   isDisabled:boolean = false;
   isDisabled2:boolean = false;
   showBooks: boolean = true;
-  isShowing: boolean = false;
+  //isShowing: boolean = false;
 
   handleClick(){
     this.isDisabled = true; 

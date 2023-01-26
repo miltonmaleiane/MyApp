@@ -1,0 +1,6 @@
+<li class="book">
+
+    <img class="image" [src]="book.image" [alt]="book.name" width="100px">
+    <p class="title"> {{book.name | titlecase}} by: {{book.author|uppercase}}</p>
+    <p class="currency">{{book.amount| currency: 'INR'}}</p>
+</li>
