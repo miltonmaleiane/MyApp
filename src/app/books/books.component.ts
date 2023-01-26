@@ -9,11 +9,15 @@ import { BooksService } from './books.service';
 })
 
 export class BooksComponent implements OnInit{
+  books:Book[] =[] ;
+  
   constructor (private booksService: BooksService){
+  
+    this.booksService = new BooksService( );
   }
   
   
-  books:Book[] =[] ;
+  
   
   
   

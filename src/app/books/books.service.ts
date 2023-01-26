@@ -5,7 +5,9 @@ import { Injectable } from '@angular/core';
 })
 export class BooksService {
 
-  constructor() { } 
+  constructor() {
+
+   } 
 getBooks(){
   return [
     {
@@ -35,4 +37,8 @@ getBooks(){
 
   ];
  }
+}class Name {
+  constructor(name :string){
+     
+  }
 }
