@@ -8,7 +8,12 @@ import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent {
+  
+  isLoading:Boolean =false
+ 
   submit() {
+    if (this.isLoading)  return;
+    this.isLoading = true;
     const auth = getAuth();
     signInWithEmailAndPassword(auth, this.form.email, this.form.password)
       .then((userCredential) => {
@@ -21,7 +26,8 @@ export class LoginComponent {
         const errorCode = error.code;
         const errorMessage = error.message;
         alert("Wrong credentials")
-      });
+      }).finally(() => (this.isLoading=false))
+
   }
 form:LoginForm ={
   email:'',
