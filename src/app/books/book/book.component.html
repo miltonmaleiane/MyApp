@@ -1,9 +1,11 @@
+<div class="border-4 border-indigo-500/75 ...  p-4"  >
 <li class="book">
 
     <img class="image" [src]="book.image" [alt]="book.name" width="100px">
     <p class="title"> {{book.name | titlecase}} by: {{book.author|uppercase}}</p>
-    <p class="currency">{{book.amount| currency: 'INR'}}</p>
-    <button *ngIf="!isInCart" (click)="addToCart()">Add to Cart</button>
+    <p class="currency">{{book.amount| currency: 'EUR'}}</p>
+    <button *ngIf="!isInCart" (click)="addToCart()"  class="bg-lime-500">Add to Cart</button>
     <button *ngIf="isInCart" (click)="removeFromCart()">Remove from Cart</button>
 
 </li>
+</div>
