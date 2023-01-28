@@ -1,4 +1,5 @@
 export interface LoginForm{
+authService: any;
 email: string;
 password : string;
 }
