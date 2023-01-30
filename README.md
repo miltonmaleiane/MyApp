@@ -6,7 +6,11 @@
 <img width="2240" alt="added-to-cart" src="https://user-images.githubusercontent.com/52857132/215417425-551ee794-98de-4425-a7fd-fdccff8333e2.png">
 <h2 > Fig.3 Books list </h2>
 <img width="2240" alt="empty-cart" src="https://user-images.githubusercontent.com/52857132/215417519-3e45e6a1-bd40-48b8-a611-6f526c24d6a4.png">
+
 <h2 > Fig.4 Empty Cart </h2>
+<img width="2240" alt="Full-cart" src="https://user-images.githubusercontent.com/52857132/215417901-9ed30864-92ef-41e1-a613-fb34d953b770.png">
+
+
 
 # MyApp
 
