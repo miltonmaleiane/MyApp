@@ -1,3 +1,8 @@
+<img width="2240" alt="register-page" src="https://user-images.githubusercontent.com/52857132/215411115-6f8099c3-1396-4e60-863d-04d320bb3224.png">
+<p> Fig.1 Register page </p>
+
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
