@@ -9,7 +9,7 @@
 
 <h2 > Fig.4 Empty Cart </h2>
 <img width="2240" alt="Full-cart" src="https://user-images.githubusercontent.com/52857132/215417901-9ed30864-92ef-41e1-a613-fb34d953b770.png">
-<h3 > Fig.5 Items in cart </h3>
+<h3 > Fig.5 Items in cart. </h3>
 
 
 # MyApp
