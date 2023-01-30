@@ -1,4 +1,4 @@
-<p>Your cart!</p>
+<p class="text-center color-aqua">Your cart!</p>
 <div *ngIf="getCart().length>0 ">
     
     <div *ngFor=" let book of getCart()"> <p>{{book.name }} by {{book.author }} for {{book.amount| currency }}</p></div>

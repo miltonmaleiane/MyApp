@@ -1,8 +1,8 @@
-<p>Programming book list!</p>
+<p class="text-center">Programming book list!</p>
 <!--Property Binding-->
 
 <!-- <button (click)="isShowing =!isShowing">Toggle </button> -->
-<ul >
+<ul class="flex flex-wrap space-x-4 justify-left " >
 
 <ng-container *ngFor="let singleBook of books; let i = index;">
  <app-book  [book] = "singleBook"> </app-book>
