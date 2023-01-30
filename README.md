@@ -3,6 +3,10 @@
 
 <img width="2240" alt="login-page" src="https://user-images.githubusercontent.com/52857132/215411427-daf7bc2b-8dd8-403d-ad41-dba74e7c9074.png">
 <h2 > Fig.2 Login page </h2>
+
+<img width="2240" alt="cart" src="https://user-images.githubusercontent.com/52857132/215417219-f04d26bc-0daa-45a2-a267-ed037830aa0c.png">
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
