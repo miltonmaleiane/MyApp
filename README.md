@@ -3,8 +3,8 @@
 
 <img width="2240" alt="login-page" src="https://user-images.githubusercontent.com/52857132/215411427-daf7bc2b-8dd8-403d-ad41-dba74e7c9074.png">
 <h2 > Fig.2 Login page </h2>
-
-<img width="2240" alt="cart" src="https://user-images.githubusercontent.com/52857132/215417219-f04d26bc-0daa-45a2-a267-ed037830aa0c.png">
+<img width="2240" alt="added-to-cart" src="https://user-images.githubusercontent.com/52857132/215417425-551ee794-98de-4425-a7fd-fdccff8333e2.png">
+<h2 > Fig.3 Books list </h2>
 
 
 # MyApp
